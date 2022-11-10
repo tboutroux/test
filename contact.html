@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Pictures/code-solid.svg">
+    <title>Contactez-moi</title>
+</head>
+<body>
+
+    <!-- MOBILE NAVBAR -->
+
+    <header>
+
+        <div class="mobile-wrapper">
+
+            <div id="myNav" class="wrapper-nav">
+
+                <a href="javascript:void(0)" id="closebtn" class="close-button" style="font-size: 60px;">&times;</a>
+
+                <div class="wrapper-nav-content">
+                    <a href="index.html">Accueil</a>
+                    <a href="index.html#presentation-page">Qui suis-je ?</a>
+                    <a href="index.html#skill-page">Compétences</a>
+                    <a href="index.html#experience-page">Mes Projets</a>
+                    <a href="#">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="wrapper-item">
+                <img src="Pictures/home-page/icons8-html-5.svg" alt="HTML 5">
+                <img src="Pictures/home-page/icons8-css3.svg" alt="HTML 5">
+                <img src="Pictures/home-page/icons8-javascript.svg" alt="HTML 5">
+            </div>  
+
+            <span class="nav-bar-icon">
+                <img src="Pictures/home-page/nav-bar-icon.png" alt="Icone Menu de Navigation" id="nav-bar-icon" class="nav-bar-icon-img">
+            </span>
+
+        </div>
+
+    </header>
+
+    <!-- COMPUTER NAVBAR -->
+    
+    <header>
+        <nav class="wrapper">
+            <div class="wrapper-item">
+                <img alt="Logo" src="Pictures/home-page/icons8-html-5.svg">
+                <img alt="Logo" src="Pictures/home-page/icons8-css3.svg">
+                <img alt="Logo" src="Pictures/home-page/icons8-javascript.svg">
+            </div>
+
+            <div class="wrapper-item-nav">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="index.html#presentation-page" class="nav-link">Qui suis-je ?</a>
+                <a href="index.html#skill-page" class="nav-link" id="wrapper-item-nav">Compétences</a>  
+                <a href="index.html#experience-page" class="nav-link">Mes Projets</a>
+            </div> 
+
+            <div class="wrapper-item">
+                <button class="btn">Contact</button>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="contact-page-div">
+        <h1>Contactez-moi</h1>
+    </div>
+
+    <div class="form-section">
+
+        <form action="" class="contact-form" method="post">
+
+            <div class="top-form-section">
+                <div class="top-form-section-left">
+                    <label for="name">Votre Prénom : </label>
+                    <input type="text" class="form-input" placeholder="Votre prénom..." name="user_firstname">
+                </div>
+                <div class="top-form-section-right">
+                    <div class="top-form-section-right">
+                        <label for="name">Votre Nom : </label>
+                        <input type="text" class="form-input" placeholder="Votre nom..." name="user_name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-form-section">
+                <label for="mail">Votre Adresse Mail : </label>
+                <input type="email" class="form-input" placeholder="Votre adresse mail..." name="user_mail">
+            </div>
+
+            <div class="third-form-section">
+                <label for="name">Contenu de votre mail : </label>
+                <textarea type="text" id="" cols="30" rows="10" value="Votre texte..." class="form-textarea" name="user_text"></textarea>
+                <button type="submit" class="button-submit">Envoyer</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-socials">
+                <div class="social">
+                    <div class="social-content" style="--footer-hover-color:var(--third-color)">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p class="footer-subtitle">boutrouxtheo@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="social-content" style="--footer-hover-color:var(--fourth-color)">
+                        <i class="fa-solid fa-phone "></i>
+                        <p class="footer-subtitle">07.71.86.46.40</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://instagram.com/theo.btx44" target="_blank">
+                        <div class="social-content instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p class="footer-subtitle">@theo.btx44</p>    
+                        </div>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/th%C3%A9o-boutroux-b635a2246/" target="_blank">
+                        <div class="social-content" style="--footer-hover-color:rgb(10,102,194)">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p class="footer-subtitle">Theo Boutroux</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/TBtx44" target="_blank">
+                        <div class="social-content" style="--footer-hover-color:#1d9bf0">
+                            <i class="fa-brands fa-twitter"></i>
+                            <p class="footer-subtitle">@Theo.btx44</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p>	&#169; Tous droits réservés - 2022</p>
+        </div> 
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7c568e5098.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
